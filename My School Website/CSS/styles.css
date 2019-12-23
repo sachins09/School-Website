@@ -1,0 +1,153 @@
+  body {
+    font-family: 'Montserrat';
+  }
+
+  p {
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+    padding-left: 15%;
+  }
+
+  h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-top: 32px;
+  }
+
+  .img-size {
+    width: 100%;
+    border-radius: 50px;
+    height: 250px;
+    padding-top: 20px;
+  }
+
+  #title {
+    background-color: #8158fc;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  .navbar {
+    background-color: #8158fc;
+
+  }
+
+  .navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+
+
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat';
+    font-weight: bold;
+  }
+
+  /*About section*/
+  #about {
+    background-color: #acdbdf;
+    padding: 30% 15%;
+  }
+
+  .about_us {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .icon {
+    width: 70px;
+    margin-bottom: 2rem;
+  }
+
+  .icon2 {
+    height: 50px;
+    width: 70px;
+
+    margin-bottom: 2rem;
+  }
+  .history{
+    margin-top: 4%;
+  }
+
+
+  .para {
+    padding-top: 15%;
+  }
+
+  /*School details*/
+  #school {
+    background-color: #c7004c;
+    text-align: center;
+    color: #fffeec;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  .cc{
+    padding-top:10%;
+  }
+
+  .profile {
+    width: 50%;
+    border-radius: 10%;
+    margin-top: 50px;
+  }
+
+  .message {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  /*gallery*/
+  #gallery {
+    padding: 100px;
+  }
+
+  .card-img-top {
+    height: 20rem;
+    border-radius: 40px;
+  }
+
+  @media(max-width:1028px) {
+    .card-header {
+      color: red;
+    }
+
+    .card-img-top {
+      height: 150px;
+      width: 70%;
+      border-radius: 20px;
+    }
+  }
+
+  @media(min-width:1301px) {
+    #about {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  #footer {
+    background-color: #f30067;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #fff;
+  }
