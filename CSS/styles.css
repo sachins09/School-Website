@@ -110,6 +110,18 @@
     height: 300px;
     margin-top: 50px;
   }
+
+
+
+@media screen and (max-width:420px) {
+  .profile-specific {
+    width: 200px;
+    border-radius: 10%;
+    height: 150px;
+    margin-top: 50px;
+  }
+}
+
   .message {
     font-family: 'Montserrat';
     font-weight: bold;
